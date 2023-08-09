@@ -4,7 +4,7 @@
 #####################################################
 *.sketch
 *.fig
-.DS_Store
+/.DS_Store
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
