@@ -7,7 +7,7 @@ Hi everyone, as you can understand from the name, this repository is a practice 
 |Challanges               |Live Demo                         |
 |----------------|-----------------------------|
 |**Challange#1** |[QR Code Component](https://frontend-challange-1.vercel.app/)|
-|**Challange#2** |-[](https://frontend-challange-1.vercel.app/)|
+|**Challange#2** |[Column Preview Card](https://frontend-challange-2.vercel.app/)|
 |**Challange#3** |-[](https://frontend-challange-1.vercel.app/)|
 |**Challange#4** |-[](https://frontend-challange-1.vercel.app/)|
 |**Challange#5** |-[](https://frontend-challange-1.vercel.app/)|
