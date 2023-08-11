@@ -4,7 +4,7 @@
 #####################################################
 *.sketch
 *.fig
-/.DS_Store
+
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
@@ -13,5 +13,5 @@
 *.xd
 
 # Avoid your project being littered with annoying .DS_Store files!
-.DS_Store
 .prettierignore
+.DS_Store
