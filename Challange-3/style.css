@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
 
+:root {
+    --background-color: hsl(225, 100%, 94%);
+    --button-color: hsl(245, 75%, 52%);
+    --paragraph-color: hsl(224, 23%, 55%);
+    --container-color: #fff;
+    --hover-color: #333;
+    --plan-color: hsl(225, 100%, 98%);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +21,7 @@ html,body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(225, 100%, 94%);
+    background-color: var(--background-color);
 }
 #main-container {
     display: flex;
@@ -22,7 +31,7 @@ html,body {
     max-height: 90%;
     max-width: 29%;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: var(--container-color);
 }
 #main-container .top-img {
     display: flex;
@@ -41,15 +50,15 @@ html,body {
     text-align: center;
     line-height: 1.6rem;
     font-size: 16px;
-    color: hsl(224, 23%, 55%);
+    color: var(--paragraph-color);
     padding-top: 20px;
 }
 .button-container {
     margin-bottom: 45px;
 }
 .button-container button {
-    background-color: hsl(245, 75%, 52%);
-    color: #fff;
+    background-color: var(--button-color);
+    color: var(--container-color);
     border: none;
     border-radius: 10px;
     width: 20rem;
@@ -65,7 +74,7 @@ html,body {
     text-align: center;
     line-height: 1.6rem;
     font-size: 16px;
-    color: hsl(224, 23%, 55%);
+    color: var(--paragraph-color);
     padding-top: 20px;
 }
 .button-container button:hover {
@@ -73,7 +82,7 @@ html,body {
 }
 .button-container p:hover {
     cursor: pointer;
-    color: #333;
+    color: var(--hover-color);
 }
 .plan-container {
     display: flex;
@@ -81,7 +90,7 @@ html,body {
     align-items: center;
     flex-direction: row;
     border-radius: 15px;
-    background-color: hsl(225, 100%, 98%);
+    background-color: var(--plan-color);
     width: 70%;
     padding: 15px 25px 15px 25px;
 }
@@ -89,7 +98,7 @@ html,body {
     font-size: 14px;
 }
 .plan-container p {
-    color: hsl(224, 23%, 55%);
+    color: var(--paragraph-color);
 }
 .plan-container a {
     font-size: 13px;
@@ -102,7 +111,7 @@ html,body {
 .plan-container a:hover {
     text-decoration: none;
     cursor: pointer;
-    color: hsl(245, 75%, 52%);
+    color: var(--button-color);
     opacity: 1;
 }
 .plan-text {
