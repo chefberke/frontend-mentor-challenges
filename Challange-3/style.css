@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+}
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height: 90%;
+    max-width: 29%;
+    border-radius: 20px;
+    background-color: #fff;
+}
+#main-container .top-img {
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.content-container p {
+    text-align: center;
+    line-height: 1.6rem;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    padding-top: 20px;
+}
+.button-container {
+    margin-bottom: 45px;
+}
+.button-container button {
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 20rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.button-container p {
+    text-align: center;
+    line-height: 1.6rem;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    padding-top: 20px;
+}
+.button-container button:hover {
+    opacity: 0.7;
+}
+.button-container p:hover {
+    cursor: pointer;
+    color: #333;
+}
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: hsl(225, 100%, 98%);
+    width: 70%;
+    padding: 15px 25px 15px 25px;
+}
+.plan-container h6 {
+    font-size: 14px;
+}
+.plan-container a {
+    font-size: 13px;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+.plan-container a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(245, 75%, 52%);
+    opacity: 1;
+}
+.plan-text {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+    #main-container {
+        max-height: 90%;
+        max-width: 90%;
+    }
+    .button-container button {
+        width: 100%;
+        padding: 25px 80px 25px 80px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .plan-container {
+        width: 80%;
+        padding: 20px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1100px) {
+    #main-container {
+        max-width: 50%;
+        max-height: 90%;
+    }
+}
