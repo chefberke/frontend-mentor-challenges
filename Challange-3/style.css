@@ -88,6 +88,9 @@ html,body {
 .plan-container h6 {
     font-size: 14px;
 }
+.plan-container p {
+    color: hsl(224, 23%, 55%);
+}
 .plan-container a {
     font-size: 13px;
     text-align: start;
