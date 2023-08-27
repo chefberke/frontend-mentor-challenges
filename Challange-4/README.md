@@ -6,8 +6,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 Realizing the things I forgot in some parts, I went over them and remembered by repeating them, I had a good and fun time, here is the result
 
-- Live Site URL: [NFT Preview Card]()
-
 ## Screenshot
 
 <img src="https://cdn.discordapp.com/attachments/931947911963635822/1145363719723962529/Screenshot_2023-08-27_at_17.25.37.png"/>

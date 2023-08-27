@@ -6,8 +6,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 I had a lot of fun doing the challenge, this was just the first one, if you want to access my other works, you can find them by browsing through this repository. 
 
-- Live Site URL: [QR Code Component](https://frontend-challange-1.vercel.app/)
-
 ## Screenshot
 
 <img src="https://cdn.discordapp.com/attachments/843957577774530621/1138905597023092980/preview-desktop.png"/>
