@@ -6,10 +6,10 @@ Hi everyone, as you can understand from the name, this repository is a practice 
 
 |Challanges               |Detailed preview                         |
 |----------------|-----------------------------|
-|**Challange#1** |[QR Code Component](https://github.com/chefberke/frontend-challange/tree/main/Challange-1)|
-|**Challange#2** |[Column Preview Card](https://github.com/chefberke/frontend-challange/tree/main/Challange-2)|
-|**Challange#3** |[Order Summary Card](https://github.com/chefberke/frontend-challange/tree/main/Challange-3)|
-|**Challange#4** |[NFT Preview Card](https://github.com/chefberke/frontend-challange/tree/main/Challange-4)|
+|**Challange#1** |[QR Code Component](https://frontend-challange-chefberke.netlify.app/challange-1/)|
+|**Challange#2** |[Column Preview Card](https://frontend-challange-chefberke.netlify.app/challange-2/)|
+|**Challange#3** |[Order Summary Card](https://frontend-challange-chefberke.netlify.app/challange-3/)|
+|**Challange#4** |[NFT Preview Card](https://frontend-challange-chefberke.netlify.app/challange-4/)|
 |**Challange#5** |-[](https://frontend-challange-1.vercel.app/)|
 |**Challange#6** |-[](https://frontend-challange-1.vercel.app/)|
 |**Challange#7** |-[](https://frontend-challange-1.vercel.app/)|
