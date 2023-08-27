@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Outfit:wght@300;400;600&display=swap');
+
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    --paragraph: 18px;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-bg);
+    font-family: Outfit, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+#main-container {
+    background-color: var(--card-bg);
+    border-radius: 1rem;
+    width: 22rem;
+    height: 37rem;
+    margin-top: 5rem;
+}
+
+.img img {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+
+.desc h1 {
+    font-size: 22px;
+    color: var(--white);
+    padding-left: 25px;
+    transition: all 1s ease;
+}
+
+.desc h1:hover {
+    color: var(--cyan);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.desc p {
+    color: var(--soft-blue);
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    color: var(--white);
+}
+
+.eth-color {
+    color: var(--cyan);
+}
+
+.clock-color {
+    color: var(--soft-blue);
+}
+
+.creator img {
+    width: 2rem;
+    border: 1px var(--white) solid;
+    border-radius: 20rem;
+}
+
+.creator {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+}
+
+.creator p {
+    padding-left: 0.9rem;
+    font-size: 0.9rem;
+    transition: all 1s ease;
+}
+
+.creator p:hover {
+    color: var(--cyan);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+span {
+    color: var(--soft-blue);
+}
+
+.line {
+    border: 1px var(--soft-blue) solid;
+    margin-top: 1.5rem;
+    opacity: 0.3;
+    width: 18rem;
+    margin-left: 2rem;
+}
