@@ -4,7 +4,7 @@ Hi everyone, as you can understand from the name, this repository is a practice 
 
 # All 
 
-|Challanges               |Live Demo                         |
+|Challanges               |Detailed preview                         |
 |----------------|-----------------------------|
 |**Challange#1** |[QR Code Component](https://github.com/chefberke/frontend-challange/tree/main/Challange-1)|
 |**Challange#2** |[Column Preview Card](https://github.com/chefberke/frontend-challange/tree/main/Challange-2)|
