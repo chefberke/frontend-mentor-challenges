@@ -6,7 +6,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 It felt good to use the grid and repeat things, had a fun time.
 
-- Live Site URL: [Grid Section](https://frontend-challange-chefberke.netlify.app/challange-4/)
+- Live Site URL: [Grid Section](https://frontend-challange-chefberke.netlify.app/challange-5/)
 
 ## Screenshot
 
