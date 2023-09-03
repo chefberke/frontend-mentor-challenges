@@ -132,32 +132,20 @@ section span:nth-child(2) {
    
 }
 
-@media screen and (max-width: 850px) {
-
+@media screen and (max-width: 997px) {
+    
     section {
-        width: 100%;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 80%;
+        height: 80%;
     }
 
     section span:nth-child(2) {
         height: 30rem;
-    }
-   
-}
-
-@media screen and (max-width: 660px) {
-
-    section {
         width: 100%;
-        margin-left: 2rem;
-        margin-right: 2rem;
     }
 
-    section span:nth-child(2) {
-        height: 35rem;
-    }
-   
 }
 
 @media screen and (max-width: 850px) {
@@ -172,6 +160,20 @@ section span:nth-child(2) {
     section span:nth-child(2) {
         height: 30rem;
         width: 100%;
+    }
+   
+}
+
+@media screen and (max-width: 660px) {
+
+    section {
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    section span:nth-child(2) {
+        height: 35rem;
     }
    
 }
