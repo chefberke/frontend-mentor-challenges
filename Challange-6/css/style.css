@@ -112,6 +112,22 @@ section span:nth-child(2) {
 
 /* media query for mobile styles  */
 
+@media screen and (max-width: 1230px) {
+    
+    section {
+        display: flex;
+        width: 70%;
+        height: 50%;
+    }
+
+    section span:nth-child(2) {
+        height: 30rem;
+        width: 100%;
+    }
+
+}
+
+
 @media screen and (max-width: 1160px) {
 
     section {
