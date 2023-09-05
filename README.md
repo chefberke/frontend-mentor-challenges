@@ -12,7 +12,7 @@ Hi everyone, as you can understand from the name, this repository is a practice 
 |**Challange#4** |[NFT Preview Card](https://frontend-challange-chefberke.netlify.app/challange-4/)|
 |**Challange#5** |[Grid Section](https://frontend-challange-chefberke.netlify.app/challange-5/)|
 |**Challange#6** |[Stats Preview Card](https://frontend-challange-chefberke.netlify.app/challange-6/)|
-|**Challange#7** |-[](https://frontend-challange-1.vercel.app/)|
+|**Challange#7** |[Profile Card](https://frontend-challange-chefberke.netlify.app/challange-7/)|
 |**Challange#8** |-[](https://frontend-challange-1.vercel.app/)|
 |**Challange#9** |-[](https://frontend-challange-1.vercel.app/)|
 |**Challange#10** |-[](https://frontend-challange-1.vercel.app/)|

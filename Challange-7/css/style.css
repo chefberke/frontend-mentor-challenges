@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-blue: hsl(229, 23%, 23%);
+    --grayish-blue: hsl(227, 10%, 46%);
+    --dark-blue: hsl(0, 0%, 59%);
+    --white: #fff;
+    
+    --font-size: 18px
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: var(--dark-cyan);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url(/Challange-7/images/bg-pattern-top.svg), url(/Challange-7/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 40vh, left 40vw top 45vh;
+}
+
+/* box style */
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white);
+    width: 25rem;
+    height: 25rem;
+    border-radius: 12px;
+    overflow: hidden;
+    background-image: url(/Challange-7/images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: 25rem 10rem;
+}
+
+#banner img {
+    border-radius: 10rem;
+    border: 4px var(--white) solid;
+    width: 6.5rem;
+    margin-top: 4.8rem;
+}
+
+#stats {
+    border-top: 1px var(--dark-blue) solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+#stats div {
+    padding-top: 1.5rem;
+}
+
+#stats h4 {
+    font-size: 16px;
+}
+
+#stats p {
+    color: var(--grayish-blue);
+    font-size: 13px;
+    padding-top: 0.2rem;
+    font-weight: 400;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+.content h1 {
+    font-size: var(--font-size);
+}
+
+.content p {
+    color: var(--grayish-blue);
+    font-size: 1.1rem;
+    padding-left: 0.5rem;
+}
+
+.location {
+    color: var(--grayish-blue);
+    margin-top: 1rem;
+}
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width: 460px) {
+    
+    section {
+        margin-left: 1.1rem;
+        margin-right: 1.1rem;
+    }
+
+}
